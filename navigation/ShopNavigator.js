@@ -95,7 +95,7 @@ const pitaLogo = createStackNavigator(
       drawerIcon: (drawerConfig) => (
         <View>
           <Image />
-          <Text>Your name</Text>
+          <Text>Pita Cigars</Text>
         </View>
       ),
     },
