@@ -81,10 +81,12 @@ const styles = StyleSheet.create({
   },
   summaryText: {
     fontFamily: 'open-sans-bold',
-    fontSize: 18
+    fontSize: 18,
+    color:'white'
   },
   amount: {
-    color: Colors.primary
+    paddingLeft: 10,
+    color: "#FFD700"
   }
 });
 

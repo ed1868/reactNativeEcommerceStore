@@ -26,7 +26,8 @@ const styles = StyleSheet.create({
     // marginTop: 20,
   },
   avatar: {
-    width: 48,
+    borderRadius:5,
+    width: 60,
     height: 48,
     // borderRadius: 24,
     // flex: 1,
@@ -40,7 +41,7 @@ const styles = StyleSheet.create({
 
 const defaultNavOptions = {
   headerStyle: {
-    backgroundColor: Platform.OS === "android" ? Colors.primary : "",
+    backgroundColor: Platform.OS === "iphone" ? Colors.primary : "#013962",
   },
   headerTitleStyle: {
     fontFamily: "open-sans-bold",
@@ -48,7 +49,7 @@ const defaultNavOptions = {
   headerBackTitleStyle: {
     fontFamily: "open-sans",
   },
-  headerTintColor: Platform.OS === "android" ? "white" : Colors.primary,
+  headerTintColor: Platform.OS === "android" ? "#013962" : Colors.primary,
 };
 
 const ProductsNavigator = createStackNavigator(
@@ -135,7 +136,9 @@ const ShopNavigator = createDrawerNavigator(
   },
   {
     contentOptions: {
-      activeTintColor: Colors.primary,
+      activeTintColor: Colors.menuActive,
+      drawerType:'back'
+    
     },
   }
 );
