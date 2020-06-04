@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, Button, Platform } from 'react-native';
+import { FlatList, Button, Platform, StyleSheet } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { HeaderButtons, Item } from 'react-navigation-header-buttons';
 
@@ -23,6 +23,7 @@ const ProductsOverviewScreen = props => {
     <FlatList
       data={products}
       keyExtractor={item => item.id}
+      
       renderItem={itemData => (
         <ProductItem
           image={itemData.item.imageUrl}

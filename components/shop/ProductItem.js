@@ -6,7 +6,8 @@ import {
   StyleSheet,
   TouchableOpacity,
   TouchableNativeFeedback,
-  Platform
+  Platform,
+  ImageBackground
 } from 'react-native';
 
 import Card from '../UI/Card';
@@ -57,8 +58,12 @@ const styles = StyleSheet.create({
     overflow: 'hidden'
   },
   image: {
+    flex:1,
     width: '100%',
-    height: '100%'
+    height: '100%',
+    resizeMode:"cover",
+    justifyContent: "center"
+    
   },
   details: {
     alignItems: 'center',

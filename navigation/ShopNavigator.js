@@ -4,7 +4,7 @@ import {
   createDrawerNavigator,
   createAppContainer,
 } from "react-navigation";
-import { Platform, View, Image, Text } from "react-native";
+import { Platform, View, Image, StyleSheet, Text } from "react-native";
 import { Ionicons } from "@expo/vector-icons";
 
 import ProductsOverviewScreen from "../screens/shop/ProductsOverviewScreen";
@@ -14,6 +14,29 @@ import OrdersScreen from "../screens/shop/OrdersScreen";
 import UserProductsScreen from "../screens/user/UserProductsScreen";
 import EditProductScreen from "../screens/user/EditProductScreen";
 import Colors from "../constants/Colors";
+
+const uri =
+  "https://static.wixstatic.com/media/4d72de_d455959e9ae946aabebfa098b46f47c9~mv2.png";
+
+const companyName = "Pita Cigars";
+
+const styles = StyleSheet.create({
+  avatarContainer: {
+    // marginBottom: 20,
+    // marginTop: 20,
+  },
+  avatar: {
+    width: 48,
+    height: 48,
+    // borderRadius: 24,
+    // flex: 1,
+  },
+  name: {
+    position: "absolute",
+    left: 100,
+    // top: 20,
+  },
+});
 
 const defaultNavOptions = {
   headerStyle: {
@@ -93,9 +116,9 @@ const pitaLogo = createStackNavigator(
   {
     navigationOptions: {
       drawerIcon: (drawerConfig) => (
-        <View>
-          <Image />
-          <Text>Pita Cigars</Text>
+        <View style={styles.avatarContainer}>
+          <Image style={styles.avatar} source={{ uri }} />
+          {/* <Text style={styles.name}></Text> */}
         </View>
       ),
     },
@@ -109,7 +132,6 @@ const ShopNavigator = createDrawerNavigator(
     Products: ProductsNavigator,
     Orders: OrdersNavigator,
     Admin: AdminNavigator,
-  
   },
   {
     contentOptions: {

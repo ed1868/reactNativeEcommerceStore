@@ -4,50 +4,50 @@ const PRODUCTS = [
   new Product(
     'p1',
     'u1',
-    'Red Shirt',
-    'https://cdn.pixabay.com/photo/2016/10/02/22/17/red-t-shirt-1710578_1280.jpg',
-    'A red t-shirt, perfect for days with non-red weather.',
+    'Fumas',
+    'https://static.wixstatic.com/media/4d72de_3eb82a3d4bee470da03e4d816c11a6f6~mv2.png',
+    "Our Small Fumas' aka Mediano are our #1 Sellers",
     29.99
   ),
   new Product(
     'p2',
     'u1',
-    'Blue Carpet',
-    'https://images.pexels.com/photos/6292/blue-pattern-texture-macro.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-    'Fits your red shirt perfectly. To stand on. Not to wear it.',
-    99.99
+    'Gigantes',
+    'https://static.wixstatic.com/media/4d72de_11c4fa6118614887a41bbb287a035bb8~mv2.png',
+    'Our Gigantes are for those that prefer a longer cigar at 8"x 46 you cant go wrong!',
+    35.99
   ),
   new Product(
     'p3',
     'u2',
-    'Coffee Mug',
-    'https://images.pexels.com/photos/160834/coffee-cup-and-saucer-black-coffee-loose-coffee-beans-160834.jpeg?cs=srgb&dl=bean-beans-black-coffee-160834.jpg&fm=jpg',
-    'Can also be used for tea!',
-    8.99
+    'Calzadores',
+    'https://static.wixstatic.com/media/4d72de_4bc3f031cff84ef584f7ea329f121e74~mv2.png',
+    'These 7 3/8"x 46 cigar Super Cazadores, are rounded on the top with no tail.',
+    35.99
   ),
   new Product(
     'p4',
     'u3',
-    'The Book - Limited Edition',
-    'https://images.pexels.com/photos/46274/pexels-photo-46274.jpeg?cs=srgb&dl=blur-blurred-book-pages-46274.jpg&fm=jpg',
-    "What the content is? Why would that matter? It's a limited edition!",
-    15.99
+    'DOUBLE WRAPPER',
+    'https://static.wixstatic.com/media/4d72de_04e69ff82c1246a5b258e37316ea8d5d~mv2.png',
+    "Our Double Wrapper, or as we like to call them Candy Canes, are one of our more unique cigars.",
+    45.99
   ),
   new Product(
     'p5',
     'u3',
-    'PowerBook',
-    'https://get.pxhere.com/photo/laptop-computer-macbook-mac-screen-water-board-keyboard-technology-air-mouse-photo-airport-aircraft-tablet-aviation-office-black-monitor-keys-graphic-hardware-image-pc-exhibition-multimedia-calculator-vector-water-cooling-floppy-disk-phased-out-desktop-computer-netbook-personal-computer-computer-monitor-electronic-device-computer-hardware-display-device-448748.jpg',
-    'Awesome hardware, crappy keyboard and a hefty price. Buy now before a new one is released!',
-    2299.99
+    'Maduros',
+    'https://static.wixstatic.com/media/4d72de_f83f77fb4123433da95aacb817b6a96f~mv2.png',
+    "Our Presidente Maduros' are one of our highest quality maduro cigars.",
+    30.99
   ),
   new Product(
     'p6',
     'u1',
-    'Pen & Paper',
-    'https://cdn.pixabay.com/photo/2015/10/03/02/14/pen-969298_1280.jpg',
-    "Can be used for role-playing (not the kind of role-playing you're thinking about...).",
-    5.49
+    'Robusto',
+    'https://static.wixstatic.com/media/4d72de_0e2f5615752046db9cb6bf7bb5e1601d~mv2.png',
+    "This Robusto is a long filler cigar with a Connecticut wrapper.",
+    29.49
   )
 ];
 
