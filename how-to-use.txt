@@ -9,3 +9,21 @@ You can use this attached file in two ways:
 For this, you can use my attachments as standalone projects. After extracting, you can navigate into them in your command prompt/ terminal (via the "cd" command) and run
 - npm install
 - npm start
+
+3) Tools used : 
+
+	- React Native
+	- Expo
+	- Node
+	- Ionicons
+	- Redux
+
+
+4) Features Launch Schedule : 
+	Live Chat with Support:
+	User Login and Logout:
+	Set up of back end Services:
+	Checkout page:
+	Better Cart Screen: 
+
+
